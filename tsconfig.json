@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "outDir": "server",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2015",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "compileOnSave": true,
+    "include": ["src/**/*"]
+}
